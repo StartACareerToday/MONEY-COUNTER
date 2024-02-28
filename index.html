@@ -217,7 +217,8 @@ function withdraw() {
     balance -= 50;
     document.getElementById("balance").innerText = balance;
     
-    window.location.href = 'https://go4affm.com/c/?p=32722&o=4385&s1=Dhhdhd' '_blank'; // Redirect to withdrawal URL
+    window.open('https://go4affm.com/c/?p=32722&o=4385&s1=Dhhdhd', '_blank'); // Redirect to withdrawal URL
+ // Redirect to withdrawal URL
   } else {
     alert("Minimum Withdrawal Balance is $50");
   }
