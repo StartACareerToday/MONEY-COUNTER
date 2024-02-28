@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Money Counter!</title>
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+body {
+    background: #C9CCEB ;
+    color: #000000  ;
+}
+
+nav {
+    background-color: #f0f0f0; /* standard background color for navbar */
+    padding: 10px 0;
+    border-radius: 5px;
+    
+}
+
+nav h1 {
+    margin: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+}
+
+.bw{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.balance {
+    font-size: 18px;
+    color: white;
+    
+    background: #AFA527;
+    
+    padding: 5px;
+    border-radius: 4px;
+    /* light green color for balance text */
+}
+
+.withdraw-btn{
+    background-color: #007bff;
+    color: #FFFFFF;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.container-buttons {
+    margin-top: 20px;
+    
+    text-align: center; /* align buttons to center */
+    
+}
+
+.button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #172296  ;
+    
+}
+
+.timer {
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: lightgreen; /* light green background color for countdown timer */
+    padding: 5px 10px; /* add padding for better appearance */
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <h1>Money Counter</h1>
+    <div class="bw">
+    <div class="balance">Balance: $<span id="balance">0</span></div> <!-- Added "Balance" text -->
+    <button class="withdraw-btn" onclick="withdraw()" >Withdraw</button>
+    
+    </div>
+</nav>
+
+<div class="container">
+    <div class="container-buttons">
+
+      <div class="btn1">
+
+          <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18653&s1=Hkjgjj')">Click Here to Earn $5! </button>
+        </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18652&s1=Hgjyff')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+  <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18651&s1=Gtdhj')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18606&s1=Hggjk')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18605&s1=Nvjkjh')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18604&s1=Khghj')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18603&s1=Jhfuh')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=18654&s1=Jhgjj')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=10729&s1=Jghkk')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://go4affm.com/c/?p=32722&o=10728&s1=Jgfhj')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53437061?s1=bhjj')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/1196338?s1=fjjggj')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/1196338?s1=jhjkhv')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53454714?s1=jvhjjgg')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53385244?s1=jjdhd')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53420274?s1=djdjdj')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53374876?s1=djdjdjg')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53374878?s1=djjd')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53449328?s1=rkjddh')">Click Here to Earn $5! </button>
+  </div>
+  <div class="btn1">
+    <button class="button" onclick="redirectTo('https://smrturl.co/o/506799/53429098?s1=ejjddh')">Click Here to Earn $5! </button>
+  </div>
+  
+      <p>You should complete 1 task within 5 minutes.</p> <!-- Added text before countdown timer -->
+
+        <!-- Add more buttons with different URLs -->
+    </div>
+    <div class="timer" id="timer">5:00</div>
+</div>
+
+<footer>
+    <form id="signup-form" action="https://smrturl.co/o/506799/53177516?s1=hdjehe" method="get" target="_blank">
+        <input type="text" placeholder="Username" id="username" required="required">
+        <br> <!-- Added line break -->
+        <input type="submit" value="Sign Up">
+    </form>
+</footer>
+
+<script>
+let balance = 0;
+let countdown;
+
+function increaseBalance() {
+  balance += 5;
+  document.getElementById("balance").innerText = balance;
+}
+
+function withdraw() {
+  if (balance >= 50) {
+    balance -= 50;
+    document.getElementById("balance").innerText = balance;
+    
+    window.location.href = 'https://go4affm.com/c/?p=32722&o=4385&s1=Dhhdhd' '_blank'; // Redirect to withdrawal URL
+  } else {
+    alert("Minimum Withdrawal Balance is $50");
+  }
+}
+
+function redirectTo(url) {
+  setTimeout(() => {
+    increaseBalance(5); // Increase balance after 2 minutes
+  }, 120000); // 2 minutes delay
+
+  window.open(url, '_blank');
+}
+
+function redirectTo(url) {
+    increaseBalance();
+    window.open(url, '_blank');
+}
+
+function startTimer(duration, display) {
+    let timer = duration, minutes, seconds;
+    countdown = setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    let fiveMinutes = 60 * 5,
+        display = document.querySelector('#timer');
+    startTimer(fiveMinutes, display);
+};
+
+document.getElementById("signup-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    let username = document.getElementById("username").value;
+    window.location.href = 'https://smrturl.co/o/506799/53177516?s1=hdjehe' '_blank';
+});
+</script>
+
+
+
+</body>
+</html>
