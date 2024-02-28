@@ -224,13 +224,7 @@ function withdraw() {
   }
 }
 
-function redirectTo(url) {
-  setTimeout(() => {
-    increaseBalance(5); // Increase balance after 2 minutes
-  }, 120000); // 2 minutes delay
 
-  window.open(url, '_blank');
-}
 
 function redirectTo(url) {
     increaseBalance();
