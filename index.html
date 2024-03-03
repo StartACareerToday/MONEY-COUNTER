@@ -181,17 +181,17 @@ let balance = 0;
 let countdown;
 
 function increaseBalance() {
-    balance += 5;
+    balance += 50;
     document.getElementById("balance").innerText = balance;
 }
 
 function withdraw() {
-    if (balance >= 50) {
-        balance -= 50;
+    if (balance >= 100) {
+        balance -= 100;
         document.getElementById("balance").innerText = balance;
         window.open('https://go4affm.com/c/?p=32722&o=4385&s1=Dhhdhd', '_blank');
     } else {
-        alert("Minimum Withdrawal Balance is $50");
+        alert("Minimum Withdrawal Balance is $100");
     }
 }
 
